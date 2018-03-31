@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka" />
+        <module name="eureka-client" />
+        <module name="eureka-server" />
+        <module name="mambo" />
+        <module name="mambo (1)" />
+        <module name="microservice-config-client" />
+        <module name="microservice-config-server" />
+        <module name="microservice-consumer-movie" />
+        <module name="microservice-discovery-eureka" />
+        <module name="microservice-discovery-eureka (1)" />
+        <module name="microservice-file-upload" />
+        <module name="microservice-gateway-zuul" />
+        <module name="microservice-gateway-zuul-filter" />
+        <module name="microservice-hystrix-dashboard" />
+        <module name="microservice-hystrix-turbine" />
+        <module name="microservice-provider-user (1)" />
+        <module name="microservice-sidecar" />
+        <module name="microservice-trace-zipkin-server" />
+        <module name="service-common" />
+        <module name="service-feign-hystrix" />
+        <module name="service-mambo" />
+        <module name="service-mambo (1)" />
+      </profile>
+      <profile name="Annotation profile for spring-cloud" enabled="true">
+        <sourceOutputDir name="../microservicesimpleprovideruser/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../microservicesimpleprovideruser/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservicesimpleprovideruser" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka" target="1.8" />
+      <module name="eureka-client" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="main" target="1.5" />
+      <module name="mambo" target="1.8" />
+      <module name="mambo (1)" target="1.8" />
+      <module name="microservice-config-client" target="1.8" />
+      <module name="microservice-config-client-cloud-bus" target="1.8" />
+      <module name="microservice-config-server" target="1.8" />
+      <module name="microservice-consumer-movie" target="1.8" />
+      <module name="microservice-consumer-movie (1) (com.itmuch.cloud)" target="1.8" />
+      <module name="microservice-consumer-movie (2) (com.h3c)" target="1.8" />
+      <module name="microservice-discovery-eureka" target="1.8" />
+      <module name="microservice-discovery-eureka (1)" target="1.8" />
+      <module name="microservice-discovery-eureka-authenticating" target="1.8" />
+      <module name="microservice-discovery-eureka-ha" target="1.8" />
+      <module name="microservice-file-upload" target="1.8" />
+      <module name="microservice-gateway-zuul" target="1.8" />
+      <module name="microservice-gateway-zuul-filter" target="1.8" />
+      <module name="microservice-gateway-zuul-filter-fallback" target="1.8" />
+      <module name="microservice-hystrix-dashboard" target="1.8" />
+      <module name="microservice-hystrix-turbine" target="1.8" />
+      <module name="microservice-hystrix-turbine-mq" target="1.8" />
+      <module name="microservice-provider-user" target="1.8" />
+      <module name="microservice-provider-user (1)" target="1.8" />
+      <module name="microservice-provider-user-metadata" target="1.8" />
+      <module name="microservice-sidecar" target="1.8" />
+      <module name="microservice-simple-provider-user" target="1.8" />
+      <module name="microservice-trace-zipkin-server" target="1.8" />
+      <module name="microservicesimpleprovideruser" target="1.8" />
+      <module name="service-common" target="1.8" />
+      <module name="service-feign" target="1.8" />
+      <module name="service-feign-hystrix" target="1.8" />
+      <module name="service-mambo" target="1.8" />
+      <module name="service-mambo (1)" target="1.8" />
+      <module name="service-ribbon" target="1.8" />
+      <module name="service-ribbon-hystrix" target="1.8" />
+      <module name="service-ribbon-hystrix-turbine-mq" target="1.8" />
+      <module name="spring-cloud" target="1.8" />
+      <module name="springcloud" target="1.8" />
+      <module name="springcloudlearing" target="1.8" />
+      <module name="springcloudlearning" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
