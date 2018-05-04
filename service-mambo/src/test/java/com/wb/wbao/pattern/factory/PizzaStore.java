@@ -2,20 +2,20 @@ package com.wb.wbao.pattern.factory;
 
 public abstract class PizzaStore {
 
-    public Pizza orderPizza(String type){
+    public <T extends Pizza> T orderPizza(Class<T> c){
 
         Pizza pizza;
 
-        pizza = createPizza(type);
+        pizza = createPizza(c);
 
         pizza.prepare();
         pizza.bake();
         pizza.cut();
         pizza.box();
 
-        return pizza;
+        return (T) pizza;
     }
 
-    protected abstract Pizza createPizza(String type);
+    protected abstract <T extends Pizza> T createPizza(Class<T> c);
 
 }

@@ -6,7 +6,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://microservice-discovery-eureka:8761/eureka/  #host改为镜像名
   instance:
     prefer-ip-address: true
 logging:
