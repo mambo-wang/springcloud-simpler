@@ -7,8 +7,6 @@ import java.lang.reflect.Method;
  * Created by dell on 2018/5/5.
  */
 public class GamePlayIH implements InvocationHandler {
-    //被代理者
-    Class cls =null;
     //被代理者实例
     Object obj = null;
     //构造函数
@@ -26,9 +24,7 @@ public class GamePlayIH implements InvocationHandler {
      */
     public Object invoke(Object proxy, Method method, Object[] args)
             throws Throwable {
-        System.out.println("开始代理");
         Object result = method.invoke(this.obj, args);
-        System.out.println("结束代理");
         return result;
     }
 }
