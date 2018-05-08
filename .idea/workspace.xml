@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="545f3d7e-b2f4-412c-b927-9687cfe86689" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-mambo/src/test/java/com/wb/wbao/multithread/semaphore/SemaphoreTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-mambo/src/test/java/com/wb/wbao/multithread/completionservice/CompletionServiceTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-mambo/target/test-classes/com/wb/wbao/filetest/IOTest.class" afterPath="$PROJECT_DIR$/service-mambo/target/test-classes/com/wb/wbao/filetest/IOTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-mambo/target/test-classes/com/wb/wbao/multithread/future/FutureTest.class" afterPath="$PROJECT_DIR$/service-mambo/target/test-classes/com/wb/wbao/multithread/future/FutureTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-mambo/target/test-classes/com/wb/wbao/multithread/lock/WriteReadLockTest.class" afterPath="$PROJECT_DIR$/service-mambo/target/test-classes/com/wb/wbao/multithread/lock/WriteReadLockTest.class" />
@@ -78,11 +78,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SemaphoreTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SemaphoreTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-mambo/src/test/java/com/wb/wbao/multithread/semaphore/SemaphoreTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="20" column="52" lean-forward="true" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+            <state relative-caret-position="350">
+              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompletionServiceTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service-mambo/src/test/java/com/wb/wbao/multithread/completionservice/CompletionServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="975">
+              <caret line="39" column="46" lean-forward="true" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/service-mambo/src/main/java/com/wb/wbao/dto/UserDTO.java" />
         <option value="$PROJECT_DIR$/service-mambo/src/main/java/com/wb/wbao/server/user/UserMgrImpl.java" />
         <option value="$PROJECT_DIR$/service-common/src/main/java/com/h3c/common/model/UserDTO.java" />
         <option value="$PROJECT_DIR$/mambo/src/main/java/com/wb/wbao/web/user/UserController.java" />
@@ -170,6 +181,7 @@
         <option value="$PROJECT_DIR$/service-mambo/src/test/java/com/wb/wbao/multithread/barrier/BarrierTest.java" />
         <option value="$PROJECT_DIR$/service-mambo/src/test/java/com/wb/wbao/multithread/countdownlatch/CountDownLatchTest.java" />
         <option value="$PROJECT_DIR$/service-mambo/src/test/java/com/wb/wbao/multithread/semaphore/SemaphoreTest.java" />
+        <option value="$PROJECT_DIR$/service-mambo/src/test/java/com/wb/wbao/multithread/completionservice/CompletionServiceTest.java" />
       </list>
     </option>
   </component>
@@ -514,7 +526,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SemaphoreTest">
+  <component name="RunManager" selected="Application.CompletionServiceTest">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wb.wbao.Application" />
@@ -546,14 +558,14 @@
       <module name="microservice-config-client-cloud-bus" />
       <envs />
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="CompletionServiceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.wb.wbao.pattern.dynamicproxy.*" />
+          <option name="PATTERN" value="com.wb.wbao.multithread.completionservice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.wb.wbao.pattern.dynamicproxy.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.wb.wbao.multithread.completionservice.CompletionServiceTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1127,19 +1139,19 @@
       <item index="16" class="java.lang.String" itemvalue="Spring Boot.MamboApplication" />
       <item index="17" class="java.lang.String" itemvalue="Spring Boot.Application" />
       <item index="18" class="java.lang.String" itemvalue="Spring Boot.EurekaApplication" />
-      <item index="19" class="java.lang.String" itemvalue="Application.Client" />
-      <item index="20" class="java.lang.String" itemvalue="Application.VolatileTest" />
-      <item index="21" class="java.lang.String" itemvalue="Application.BarrierTest" />
-      <item index="22" class="java.lang.String" itemvalue="Application.CountDownLatchTest" />
-      <item index="23" class="java.lang.String" itemvalue="Application.SemaphoreTest" />
+      <item index="19" class="java.lang.String" itemvalue="Application.VolatileTest" />
+      <item index="20" class="java.lang.String" itemvalue="Application.BarrierTest" />
+      <item index="21" class="java.lang.String" itemvalue="Application.CountDownLatchTest" />
+      <item index="22" class="java.lang.String" itemvalue="Application.SemaphoreTest" />
+      <item index="23" class="java.lang.String" itemvalue="Application.CompletionServiceTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SemaphoreTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CountDownLatchTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BarrierTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.VolatileTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Client" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CompletionServiceTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SemaphoreTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CountDownLatchTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.BarrierTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.VolatileTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1231,11 +1243,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525743852415</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="5月8日 信号量">
+      <created>1525744995429</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1525744995429</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67278000" />
+    <option name="totallyTimeSpent" value="69883000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
@@ -1312,7 +1331,8 @@
     <MESSAGE value="5月6日 动态代理" />
     <MESSAGE value="5月8日 volatile、同步屏障" />
     <MESSAGE value="5月8日 闭锁" />
-    <option name="LAST_COMMIT_MESSAGE" value="5月8日 闭锁" />
+    <MESSAGE value="5月8日 信号量" />
+    <option name="LAST_COMMIT_MESSAGE" value="5月8日 信号量" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1381,13 +1401,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/service-mambo/src/main/java/com/wb/wbao/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-mambo/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1782,8 +1795,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service-mambo/src/test/java/com/wb/wbao/multithread/semaphore/SemaphoreTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="52" lean-forward="true" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+        <state relative-caret-position="350">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-mambo/src/test/java/com/wb/wbao/multithread/completionservice/CompletionServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="39" column="46" lean-forward="true" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
